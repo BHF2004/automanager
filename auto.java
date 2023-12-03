@@ -7,15 +7,16 @@ class Auto {
         int auto1baujahr;
         auto1Marke = "Tesla";
         auto1baujahr = 2023;
-        System.out.println("Marke:" + auto1Marke);
-        System.out.println("Baujahr:" + auto1baujahr);
+        System.out.println("Marke: " + auto1Marke);
+        System.out.println("Baujahr: " + auto1baujahr);
 
         String auto2Marke;
         int auto2baujahr;
         auto2Marke = "Mercedes";
-        auto2baujahr = 2024;
-        System.out.println("Marke:" + auto2Marke);
-        System.out.println("Baujahr:" + auto2baujahr);
+        auto2baujahr = 2010;
+        System.out.println("Marke: " + auto2Marke);
+        System.out.println("Baujahr: " + auto2baujahr);
+
     }
 
 }
