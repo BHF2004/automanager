@@ -22,15 +22,8 @@ class Auto {
         Auto auto1 = new Auto("Tesla", 2023);
         auto1.zeigeDetails();
 
-        String auto2Marke;
-        int auto2baujahr;
-        int alter2;
-        auto2Marke = "Mercedes";
-        auto2baujahr = 2010;
-        alter2 = 2023 - auto2baujahr;
-        System.out.println("Marke: " + auto2Marke);
-        System.out.println("Baujahr: " + auto2baujahr);
-        System.out.println("Alter: " + alter2);
+        Auto auto2 = new Auto("Mercedes", 2010);
+        auto2.zeigeDetails();
 
     }
 
