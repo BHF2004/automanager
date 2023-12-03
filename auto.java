@@ -1,17 +1,19 @@
 class Auto {
     String marke;
+    int baujahr;
+
+    public void zeigeDetails() {
+        System.out.println("Marke: " + this.marke);
+        System.out.println("Baujahr: " + this.baujahr);
+    }
 
     public static void main(String[] args) {
         System.out.println("Willommen zum Automanager");
-        String auto1Marke;
-        int auto1baujahr;
-        int alter1;
-        auto1Marke = "Tesla";
-        auto1baujahr = 2018;
-        alter1 = 2023 - auto1baujahr;
-        System.out.println("Marke: " + auto1Marke);
-        System.out.println("Baujahr: " + auto1baujahr);
-        System.out.println("Alter: " + alter1);
+        Auto auto1 = new Auto();
+        auto1.marke = "Tesla";
+        auto1.baujahr = 2023;
+        System.out.println("Marke: " + auto1.marke);
+        System.out.println("Baujahr: " + auto1.baujahr);
 
         String auto2Marke;
         int auto2baujahr;
