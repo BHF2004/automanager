@@ -1,10 +1,12 @@
+import java.time.LocalDate;
+
 class Auto {
     String marke;
     int baujahr;
     int alter;
 
     public Auto(String marke, int baujahr) {
-        int aktuellesJahr = 2023;
+        int aktuellesJahr = LocalDate.now().getYear();
         this.marke = marke;
         this.baujahr = baujahr;
         this.alter = aktuellesJahr - baujahr;
