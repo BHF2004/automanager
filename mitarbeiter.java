@@ -21,7 +21,10 @@ class Mitarbeiter {
 
     public static void main(String[] args) {
 
-        Mitarbeiter Arbeit1 = new Mitarbeiter("Eren", "Cetinbas", 19);
-        Arbeit1.infos();
+        Mitarbeiter Arbeiter1 = new Mitarbeiter("Eren", "Cetinbas", 19);
+        Arbeiter1.infos();
+
+        Mitarbeiter Arebiter2 = new Mitarbeiter("Sandra", "Buchner", 28);
+        Arebiter2.infos();
     }
 }
