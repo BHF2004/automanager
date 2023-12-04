@@ -26,5 +26,9 @@ class Mitarbeiter {
 
         Mitarbeiter Arebiter2 = new Mitarbeiter("Sandra", "Buchner", 28);
         Arebiter2.infos();
+
+        Mitarbeiter Arebiter3 = new Mitarbeiter("Leon", "Kraxr", 82);
+        Arebiter3.infos();
+
     }
 }
